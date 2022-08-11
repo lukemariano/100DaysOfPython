@@ -43,6 +43,7 @@ password_shuffle = ''.join(random.sample(password, len(password)))
 
 
 #output
+print('-'*5 + 'generated password' + '-'*5)
 print(password_shuffle)
 
 
